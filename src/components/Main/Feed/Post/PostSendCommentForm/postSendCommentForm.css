@@ -1,0 +1,26 @@
+.post-send-comment .post-send-form {
+    position: relative;
+    width: 100%;
+}
+
+.post-send-comment .post-send-form input {
+    width: 100%;
+    border-radius: 40px;
+    border: 0;
+    height: 40px;
+    padding: 15px;
+    background-color: #f8f8f8;
+    margin-top: 10px;
+    color: #516d77;
+}
+
+.post-send-comment .post-send-form input:focus, .post>.post-send-comment .post-send-form input:active {
+    outline: none;
+}
+
+.post-send-comment .post-send-form button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}

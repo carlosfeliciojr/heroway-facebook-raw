@@ -1,0 +1,39 @@
+@import './Post/post.css';
+
+.feed {
+    width: calc(100% - 350px);
+    background-color: #F5F6FB;
+}
+
+.feed>.container {
+    width: 72%;
+    margin: 50px auto;
+}
+
+@media (max-width: 575.98px) {
+    .feed {
+        width: 100%;
+        min-width: 299px;
+    }
+    .feed>.container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .feed {
+        width: 100%;
+    }
+    .feed>.container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .feed {
+        width: calc(100% - 280px);
+    }
+    .feed>.container {
+        width: 90%;
+    }
+}

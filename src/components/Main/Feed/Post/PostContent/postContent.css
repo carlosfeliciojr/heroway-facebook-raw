@@ -1,0 +1,18 @@
+.post-content {
+    margin: 20px 0;
+}
+
+.post-image .post-image-board {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.post-image img {
+    width: 100%;
+    min-width: 400px;
+}
