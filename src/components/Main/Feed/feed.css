@@ -1,4 +1,6 @@
 @import './Post/post.css';
+@import './ProfileSidebar/profileSidebar.css';
+
 
 .feed {
     width: calc(100% - 350px);

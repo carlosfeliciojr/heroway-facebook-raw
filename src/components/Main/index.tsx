@@ -1,27 +1,35 @@
+// Bibliotecas:
 import React from 'react';
-import { BrowserRouter, Switch, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-import './main.css';
+// Componentes:
 import Login from './Login';
 import Feed from './Feed';
-import ProfileSidebar from './ProfileSidebar';
+
+// CSS:
+import './main.css';
+
+// Config:
+import PATHS from '../../config/paths';
 
 function Main() {
     return (
         <section className="main">
             <BrowserRouter>
                 <Switch>
-                    <Route path="/"exact={true} >
+                    <Route path={PATHS.ROOT} exact={true} >
                         <Login />
                     </Route>
 
-                    <Route path="/feed">
+                    <Route path={PATHS.LOGIN} >
+                        <Login />
+                    </Route>
+
+                    <Route path={PATHS.FEED}>
                         <Feed />
-                        <ProfileSidebar />
                     </Route>
                 </Switch>
             </BrowserRouter>
-
         </section>
     );
 }

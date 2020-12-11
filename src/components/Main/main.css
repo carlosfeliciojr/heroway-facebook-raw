@@ -1,6 +1,5 @@
 @import './Feed/feed.css';
 @import './Login/login.css';
-@import './ProfileSidebar/profileSidebar.css';
 
 .main {
   position: relative;
